@@ -6,6 +6,8 @@
 * **Font**: Fira Code
 * **Workspace font**: Roboto
 
+## Screenshots
+
 ![Screenshot](/screenshots/desktop-1.png)
 
 ### Dependencies
