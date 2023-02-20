@@ -262,7 +262,6 @@ myLogHook = return ()
 myStartupHook = do
     spawnOnce "nitrogen --restore &"
     spawnOnce "picom &"
-    spawnOnce "polybar &"
     setWMName "LG3D"
 
 
@@ -291,7 +290,7 @@ myLayoutHook = spacingWithEdge 12 $ smartBorders myLayout
 -- Run xmonad with the settings you specify. No need to modify this.
 --
 main = do
-  xmonad =<< statusBar "xmobar" myPP toggleStrutsKey defaults
+  xmonad . ewmh . ewmhFullscreen =<< statusBar "polybar" myPP toggleStrutsKey defaults
     { terminal           = myTerminal
     , focusFollowsMouse  = myFocusFollowsMouse
     , clickJustFocuses   = myClickJustFocuses

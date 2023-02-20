@@ -6,3 +6,15 @@
 * **Workspace font**: Roboto
 
 ![Screenshot](/screenshots/desktop-1.png)
+
+### Dependencies
+* playerctl
+* xmonad
+* xmonad-contrib
+* polybar
+* nm-connection-editor
+* picom
+* neofetch
+* cli-visualizer
+* kitty
+* nitrogen
