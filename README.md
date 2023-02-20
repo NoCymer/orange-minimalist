@@ -1,3 +1,4 @@
+# Orange Minimalist
 * **OS**: Arch Linux
 * **WM**: XMonad
 * **Bar**: polybar
