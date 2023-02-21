@@ -7,6 +7,7 @@
 * **Terminal**: Kitty
 * **Font**: Fira Code
 * **Workspace font**: Roboto
+* **Icons fonts** : Material Design / Iosevka
 
 ## Screenshots
 
@@ -18,9 +19,10 @@
 * xmonad-contrib
 * polybar
 * nm-connection-editor
-* picom
+* picom-rounded-corners
 * neofetch
 * cli-visualizer
 * kitty
 * nitrogen
 * albert
+* imagemagick

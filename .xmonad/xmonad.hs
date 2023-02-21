@@ -258,7 +258,7 @@ myLogHook = return ()
 -- By default, do nothing.
 myStartupHook = do
     spawnOnce "nitrogen --restore &"
-    spawnOnce "picom &"
+    spawnOnce "picom --experimental-backend &"
     spawnOnce "albert &"
     setWMName "LG3D"
 
