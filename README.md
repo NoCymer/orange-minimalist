@@ -23,3 +23,4 @@
 * cli-visualizer
 * kitty
 * nitrogen
+* albert
