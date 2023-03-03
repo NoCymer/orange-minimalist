@@ -2,7 +2,7 @@
 ![rice](https://img.shields.io/badge/TYPE-RICE-%23E4734E?style=for-the-badge&labelColor=1a1b26)
 ![stars](https://img.shields.io/github/stars/NoCymer/orange-minimalist?labelColor=1a1b26&color=E4734E&style=for-the-badge)
 * **OS**: Arch Linux
-* **WM**: XMonad
+* **WM**: bspwm
 * **Bar**: polybar
 * **Terminal**: Kitty
 * **Font**: Fira Code
@@ -15,8 +15,9 @@
 
 ### Dependencies
 * playerctl
-* xmonad
-* xmonad-contrib
+* bspwm
+* sxhkd
+* wmname
 * polybar
 * nm-connection-editor
 * picom-rounded-corners
