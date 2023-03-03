@@ -10,7 +10,7 @@ function aur_install () {
 
 ################## DEPENDENCIES ##################
 
-sudo pacman -S nitrogen picom kitty imagemagick
+sudo pacman -S nitrogen picom kitty imagemagick flameshot
 sudo pacman -S playerctl polybar nm-connection-editor neofetch wmname
 
 git clone https://github.com/baskerville/bspwm.git

@@ -15,6 +15,7 @@
 
 ### Dependencies
 * playerctl
+* flameshot
 * bspwm
 * sxhkd
 * wmname

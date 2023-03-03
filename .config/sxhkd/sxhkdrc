@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+#Screenshot
+super + shift + s
+    flameshot gui
+
 # terminal emulator
 super + shift + Return
 	kitty
